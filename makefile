@@ -27,6 +27,7 @@ INC 	:= -I include
 $(TARGET): $(OBJECTS)
 	@echo " Linking..."
 	@echo $(OBJECTS)
+	@mkdir -p $(dir $(TARGET))
 	@echo " $(CC) $^ -o $(TARGET) $(LIB)"; $(CC) $^ -o $(TARGET) $(LIB)
 	@echo " ......."
 
