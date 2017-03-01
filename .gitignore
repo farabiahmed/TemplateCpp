@@ -6,5 +6,8 @@ lib/*.dll
 # Ignore any executables
 bin/*.out
 
+# Ignore backup files
+*~
+
 # Ignore Mac specific files
 .DS_Store
