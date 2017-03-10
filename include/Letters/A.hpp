@@ -7,6 +7,9 @@
 
 using namespace std;
 
+/**
+*  @brief Class A as an example
+*/  
 class A {
 	public:
 		// only declaration in the .h unless only a short initialization list is used.
