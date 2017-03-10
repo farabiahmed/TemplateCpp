@@ -1,6 +1,6 @@
 ## Used Tools
 - Basic writing and formatting syntax: Markdown, Prose.io
-- Text Editor: Vim, SublimeText, Eclipse
+- Text Editor: Vim, SublimeText, Eclipse, Atom
 - Compiler: G++
 - Debugger: GDB
 - Visual Debugger: Eclipse
