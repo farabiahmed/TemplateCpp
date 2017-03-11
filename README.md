@@ -19,6 +19,7 @@
 	sudo apt-get install doxygen-gui
 ### Install Latex 
 	sudo apt-get install texlive-latex-base
+	sudo apt-get install texlive-latex-extra
 	sudo apt-get install texlive-pictures 
 	sudo apt-get install pgf
 	sudo apt-get install gedit gedit-latex-plugin
