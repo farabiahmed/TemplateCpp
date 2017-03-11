@@ -24,6 +24,9 @@ CFLAGS 	:= -g # -Wall
 LIB 	:= -pthread
 INC 	:= -I include
 
+# All Target
+all: $(TARGET)
+
 $(TARGET): $(OBJECTS)
 	@echo " Linking..."
 	@echo $(OBJECTS)
