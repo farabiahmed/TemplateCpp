@@ -1,0 +1,37 @@
+% Compilation:
+% pdflatex example.tex
+
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\pgfplotsset{compat=1.8} 
+\usepgfplotslibrary{patchplots}
+\pagestyle{empty}% Remove page headers/footers
+
+\begin{document}
+
+\centering
+\begin{tikzpicture}[scale = 1.5]
+    \begin{axis}
+    \addplot3[patch,patch refines=3,
+		shader=faceted interp,
+		patch type=biquadratic] 
+    table[z expr=x^2-y^2]
+    {
+        x  y
+        -2 -2
+        2  -2
+        2  2
+        -2 2
+        0  -2
+        2  0
+        0  2
+        -2 0
+        0  0
+    };
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}
