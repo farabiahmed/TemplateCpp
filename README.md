@@ -10,11 +10,17 @@
 ## Useful snippets:
 ### Get rid of backup files in subfolders:
 	find . -type f -name '*~' -delete
-
-### Installing documentation tools
+### Get latex packages 
+	cat *.tex | sed -n 's/^[^%]*\\usepackage[^{]*{\([^}]*\)}.*$/tex\(\1.sty\)/p' | paste -sd ' ' -
+	sudo dnf install $( cat ...
+### Install documentation tools
 	sudo apt-get install graphviz
 	sudo apt-get install doxygen-gui
-
+### Install Latex 
+	sudo apt-get install texlive-latex-base
+	sudo apt-get install texlive-pictures 
+	sudo apt-get install pgf
+	sudo apt-get install gedit gedit-latex-plugin
 
 ## Folder Structure
 
