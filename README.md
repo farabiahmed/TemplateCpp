@@ -80,6 +80,8 @@ Project-Name
 ├──── doc
 │
 ├──── scripts
+|
+├──── config
 │
 ├──── makefile
 │
@@ -104,7 +106,9 @@ Any libs that get compiled by the project, third party or any needed in developm
 
 - doc: The folder that stores documentation of project. Text files, uml diagrams and doxygen output etc. 
 
-- scripts: The files you need to run to automating some processes
+- scripts: The files you need to run to automating some processes.
+
+- config: Configuration files are stored there such as "config.cfg".
 
 - makefile: Shell commands to automate compiling and linking of source codes and objects.
 
