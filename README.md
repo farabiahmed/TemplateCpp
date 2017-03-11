@@ -23,10 +23,10 @@
 	sudo apt-get install pgf
 	sudo apt-get install gedit gedit-latex-plugin
 ## Latex Usage
-	  latex		    dvips	     ps2pdf			
+		  latex		    dvips	     ps2pdf			
 	text.tex -------> text.dvi -------> text.ps --------> text.pdf
 	
-			  latex		   dvipdfm
+		  latex		   dvipdfm
 	text.tex -------> text.dvi -------> text.pdf
 
 	 	 pdflatex
